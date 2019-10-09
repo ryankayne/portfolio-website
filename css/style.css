@@ -806,6 +806,20 @@ ul.portfolio-image li .desc{
   color: #B7B7B7;
   font-weight: 700;
 }
+.lisa-parent {
+  display: flex;
+}
+.lisa-parent2{
+  display: flex;
+  flex-direction: column;
+}
+.lisa {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(75%);
+  width: 50%;
+  height: 50%;
+  margin-right: 5%;
+}
 .mask-testimonial{
   background-color: rgba(47, 47, 47, 0.7);
   height: 100%;
@@ -1271,3 +1285,7 @@ ul.portfolio-image li .desc{
 }
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
+
+.attribution {
+  text-align: center;
+}
